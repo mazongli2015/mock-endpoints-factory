@@ -2,6 +2,7 @@
   "name": "mock-endpoints-factory",
   "version": "1.0.0",
   "description": "模拟数据的api接口工厂",
+  "repository": "github.com:mazongli2015/mock-endpoints-factory.git",
   "main": "src/index.js",
   "keywords": [
     "mockjs",
