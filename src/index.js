@@ -12,7 +12,8 @@ const Mock = require('mockjs')
  * @param {String} method http的请求方法，如get,post等
  * @param {url} http请求的url 如 /mock/test1/:id
  * @param {Object | Function} data 可以是mockjs的数据配置，也可以是函数，函数的形式为：
- * (req, res) => {}, req 表示request对象，res表示response对象，这里是指类似express提供的request和response对象
+ * (req, res, Mock) => {}, req 表示request对象，res表示response对象，这里是指类似express提供的request和response对象。
+ * Mock是指从mockjs导入的Mock对象，提供了各种生成数据的方法
  * @param {Number} statusCode http返回码如200,404等
  * 
  */
