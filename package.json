@@ -1,0 +1,28 @@
+{
+  "name": "mock-endpoints-factory",
+  "version": "1.0.0",
+  "description": "模拟数据的api接口工厂",
+  "main": "src/index.js",
+  "keywords": [
+    "mockjs",
+    "endpoints",
+    "factory"
+  ],
+  "author": "mzl",
+  "license": "ISC",
+  "files": [
+    "src",
+    "test",
+    "start.js"
+  ],
+  "scripts": {
+    "start": "node ./start.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "mockjs": "^1.1.0"
+  }
+}
