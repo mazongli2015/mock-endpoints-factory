@@ -1,6 +1,6 @@
 # 初衷
     我们在做前端页面时，有时需要调用接口，但是后端开发人员有可能还没有完成，这时我们需要一个模拟数据返回的服务器。若是单纯地使用mockjs来模拟数据，无法做到完全的http请求模拟，若是新建一个服务器，则前端需要处理跨域问题。
-    在这里，mock-endpoints-factory集成了mockjs，为用户提供了一个简单的api，可以迅速创建对应url的http接口，可以方便的集成进webpack中。
+    在这里，mock-endpoints-factory集成了[mockjs](http://mockjs.com)，为用户提供了一个简单的api，可以迅速创建对应url的http接口，可以方便的集成进webpack中。
 
 # 准备
     我们以express为例来新建一个mock服务器。
